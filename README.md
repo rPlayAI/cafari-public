@@ -17,6 +17,24 @@ build is signed, and re-signing with your own Apple ID may lose it. Some
 people report it working, so try it; if the car screen stays empty, that is
 why, and a build signed by us (TestFlight) will have it.
 
+### Getting the car screen with your own signing
+
+CarPlay entitlements are granted by Apple, per developer account, and a
+sideloaded build carries whatever the account signing it has. If you want the
+car screen on a build you sign yourself:
+
+1. You need a paid Apple Developer account ($99/year). A free Apple ID cannot
+   hold CarPlay entitlements.
+2. Ask Apple for them: <https://developer.apple.com/contact/carplay/>. Request
+   the **audio** and **video** CarPlay app entitlements, and say what the app
+   does — a browser that plays video on the car screen while parked.
+3. Apple answers by email. Approval is not automatic, and they grant these for
+   app categories they have decided to support.
+4. If granted, the entitlements appear against your account. Create a
+   provisioning profile that includes them and re-sign the `.ipa` with it.
+
+Background on the entitlements is at <https://developer.apple.com/carplay/>.
+
 ## What it does
 
 - **YouTube to the car** at the quality the page plays, with the queue playing
