@@ -1,0 +1,45 @@
+{
+  "name": "Cafari",
+  "identifier": "ai.rplay.cafari",
+  "sourceURL": "https://raw.githubusercontent.com/rPlayAI/cafari-public/main/source.json",
+  "website": "https://github.com/rPlayAI/cafari-public",
+  "subtitle": "Sideload builds of Cafari, the casting browser.",
+  "description": "Install and update Cafari without going through TestFlight. Builds are signed and hosted on GitHub releases.",
+  "iconURL": "https://raw.githubusercontent.com/rPlayAI/cafari-public/main/icon.png",
+  "tintColor": "#1A73E8",
+  "apps": [
+    {
+      "name": "Cafari",
+      "bundleIdentifier": "com.vmlite.cafari",
+      "developerName": "rPlay AI",
+      "subtitle": "A casting browser: web video to Chromecast, AirPlay, or the car screen.",
+      "localizedDescription": "Cafari is a browser that sends web video to a Chromecast, an AirPlay receiver, or the car's screen.\n\nBuilds expire 90 days after they are made; the app warns for the last two weeks before it stops working, and updating through this source replaces it with a current build.\n\nCasting to Chromecast and AirPlay receivers works with any signing. Video on the car's own CarPlay screen depends on how the build is signed, and re-signing with your own Apple ID may lose it.",
+      "iconURL": "https://raw.githubusercontent.com/rPlayAI/cafari-public/main/icon.png",
+      "tintColor": "#1A73E8",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "152.7956.0",
+          "buildVersion": "152.0.7956.843",
+          "date": "2026-09-21",
+          "localizedDescription": "Wireless CarPlay adapters: the picture now holds, stopping returns the car to its own screen, and Cafari casts straight away after joining the adapter's Wi-Fi. Works on iOS 26.4 and later and on iOS 27.0; not yet on the iOS 27.2 beta. Expires 2026-12-20.",
+          "downloadURL": "https://github.com/rPlayAI/cafari-public/releases/download/v152.0.7956.843/Cafari-152.0.7956.843-expires-2026-12-20.ipa",
+          "size": 69629331,
+          "sha256": "fa4db7d0411b551bfd17ee5faff57b20eb29b414192df24fc2f47333525761aa",
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "152.7956.0",
+          "buildVersion": "152.0.7956.840",
+          "date": "2026-09-19",
+          "localizedDescription": "Expires 2026-12-18.",
+          "downloadURL": "https://github.com/rPlayAI/cafari-public/releases/download/v152.0.7956.840/Cafari-152.0.7956.840-expires-2026-12-18.ipa",
+          "size": 69625152,
+          "sha256": "5bbf8f19468d93ab072f6d5ec9a6e016b568b3f7f819efd747a778f96dcc8c54",
+          "minOSVersion": "18.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}

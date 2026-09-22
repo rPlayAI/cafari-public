@@ -13,6 +13,20 @@ sideload it with AltStore, SideStore or Sideloadly.
 **iOS versions:** works on iOS 26.4 and later, and on iOS 27.0. Not yet on
 the iOS 27.2 beta.
 
+#### Automatic updates with AltStore or SideStore
+
+Add this source once and new builds arrive as updates, instead of downloading
+each `.ipa` by hand:
+
+```
+https://raw.githubusercontent.com/rPlayAI/cafari-public/main/source.json
+```
+
+In AltStore or SideStore, open Sources, tap +, and paste the address above.
+If you were on the TestFlight public beta, this is the way to keep getting new
+builds: that beta cannot be updated any more, and its last build stops working
+ninety days after it was published.
+
 **Builds expire 90 days after they are made.** The expiry date is in the file
 name, and the app warns for the last two weeks before it stops working.
 
