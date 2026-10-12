@@ -20,6 +20,26 @@
       "versions": [
         {
           "version": "152.7956.0",
+          "buildVersion": "152.0.7956.857",
+          "date": "2026-10-12",
+          "localizedDescription": "Expires 2027-01-10.",
+          "downloadURL": "https://github.com/rPlayAI/cafari-public/releases/download/v152.0.7956.857/Cafari-152.0.7956.857-expires-2027-01-10.ipa",
+          "size": 69741268,
+          "sha256": "0f39baba495e4bfc6aadbb075a943eafe7ecc330ec6146a77b0516c604d2e4bd",
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "152.7956.0",
+          "buildVersion": "152.0.7956.850",
+          "date": "2026-10-02",
+          "localizedDescription": "Expires 2026-12-31.",
+          "downloadURL": "https://github.com/rPlayAI/cafari-public/releases/download/v152.0.7956.850/Cafari-152.0.7956.850-expires-2026-12-31.ipa",
+          "size": 69695234,
+          "sha256": "297c19ca866e6d4c4a4aff4899b8dc727db4556028729892fe98929047d65981",
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "152.7956.0",
           "buildVersion": "152.0.7956.843",
           "date": "2026-09-21",
           "localizedDescription": "Wireless CarPlay adapters: the picture now holds, stopping returns the car to its own screen, and Cafari casts straight away after joining the adapter's Wi-Fi. Works on iOS 26.4 and later and on iOS 27.0; not yet on the iOS 27.2 beta. Expires 2026-12-20.",
