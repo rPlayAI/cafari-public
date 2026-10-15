@@ -20,6 +20,16 @@
       "versions": [
         {
           "version": "152.7956.0",
+          "buildVersion": "152.0.7956.881",
+          "date": "2026-10-15",
+          "localizedDescription": "Expires 2027-01-13.",
+          "downloadURL": "https://github.com/rPlayAI/cafari-public/releases/download/v152.0.7956.881/Cafari-152.0.7956.881-expires-2027-01-13.ipa",
+          "size": 69774529,
+          "sha256": "ac0bc3f6418b05fffc4855c62187be86fc0a69c16963022d25d0e82dda4ee4f5",
+          "minOSVersion": "18.0"
+        },
+        {
+          "version": "152.7956.0",
           "buildVersion": "152.0.7956.857",
           "date": "2026-10-12",
           "localizedDescription": "Expires 2027-01-10.",
